@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+header{
+    /* border: solid black; */
+    background-color: azure;
+}
+
+.titleHeader{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.navegationHeader{
+    width: 100%;
+    /* border:solid red; */
+    display: flex;
+}
+
+.list{
+    width: 80%;
+    /* border:solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.itemListHeader{
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.logoHeader{
+    width: 10vw;
+    border-radius: 20%;
+}
+
+.boxMenu{
+    /* border: solid orange; */
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 2rem;
+}
+
+.titleMenu{
+font-size: 1.2rem;
+color: red;
+text-transform: uppercase;
+font-weight: 200;
+
+}
+
+.btnMenu{
+    width: 3vw;
+    height: 5vh;
+    background-color: blanchedalmond;
+}
+
+.titleEmail{
+    font-size: 1.5rem;
+    font-family: 'Sono', sans-serif;
+
+}
+
+/*MAIN*/
+
+main{
+    background-color: rgb(238, 167, 182);
+   padding-top: 1rem;
+
+}
+
+.titleBoxOne{
+    text-align: center;
+}
+
+.boxOneMain{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem ;
+}
+
+.btnBoxOne{
+    width: 15vw;
+}
+
+.containerImage{
+    padding-top: 2rem;
+    display: flex;
+padding-left: 2rem;
+justify-content: space-evenly;
+}
+
+.boxImage{
+}
+
+.imgBox{
+    width: 15vw;
+    height: 25vh;
+}
+
+.titleImg{
+    font-size: 12px;
+}
